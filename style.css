@@ -1,0 +1,44 @@
+.labelHeader{
+  margin: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+.seatBox{
+  height: 30px;
+    width: 30px;
+    display: flex;
+    background: gray;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    cursor: pointer;
+    float: right;
+}
+.seatBox.selected{
+  background: greenyellow;
+  cursor: default;
+}
+
+.rowSection{
+  padding: 10px;
+  clear: both;
+}
+.rowName{
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+#totalPrice{
+  padding: 10px;
+  font-size: 16px;
+}
+
+section{
+  width: 585px;
+  margin-top: 50px;
+}
